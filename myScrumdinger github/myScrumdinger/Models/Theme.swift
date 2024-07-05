@@ -52,5 +52,8 @@ enum Theme : String {
         
         }
     }
+    var name: String {
+           rawValue.capitalized
+       }
 
 }
